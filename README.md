@@ -19,7 +19,7 @@ this is  a simple program divided into classes that is used to show a simple zoo
    - `Mammals` is a superclass that defines common properties and behaviors of mammals.
    - `Lion` and `Rabbit` are subclasses of `Mammals` and inherit its properties and behaviors.
    - The objects `m1` and `m2` are created as instances of `Lion` and `Rabbit` respectively but are declared as `Mammals`.
-   - Even though `m1` and `m2` are declared as `Mammals`, they can still access the overridden methods specific to their subclasses (`Sleep()` and `Birth()`).
+   - Even though `m1` and `m2` are declared as `Mammals`, they can still access the overridden methods specific to their subclasses (`Sleep()` and `Eat()`).
    - This allows different types of mammals to be treated uniformly as `Mammals` while invoking their specific behaviors.
 
 2. Polymorphism with the `Reptile` class:
