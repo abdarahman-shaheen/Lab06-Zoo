@@ -46,8 +46,6 @@ namespace Test
             Reptile r1 = new Crocodile("Crocodile", 4, true, true);
             bool result = r1.Scales;
             Assert.True(result);
-
-
         }
     }
 }
