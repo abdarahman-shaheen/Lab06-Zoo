@@ -27,3 +27,5 @@ this is  a simple program divided into classes that is used to show a simple zoo
    - `Snake` is a subclass of `Reptile` and inherits its properties and behaviors.
    - The object `r1` is created as an instance of `Snake` but is declared as `Reptile`.
 ## Test
+![Test](https://github.com/abdarahman-shaheen/Lab06-Zoo/blob/master/Test-zoo.png)
+
