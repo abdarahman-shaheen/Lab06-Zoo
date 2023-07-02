@@ -22,7 +22,9 @@ this is  a simple program divided into classes that is used to show a simple zoo
    - Even though `m1` and `m2` are declared as `Mammals`, they can still access the overridden methods specific to their subclasses (`Sleep()` and `Eat()`).
    - This allows different types of mammals to be treated uniformly as `Mammals` while invoking their specific behaviors.
 
-2. Polymorphism with the `Reptile` class:
+2. Polymorphism with the `Reptile` class.
+
+
    - `Reptile` is a superclass that defines common properties and behaviors of Reptiles.
    - `Snake` is a subclass of `Reptile` and inherits its properties and behaviors.
    - The object `r1` is created as an instance of `Snake` but is declared as `Reptile`.
