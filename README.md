@@ -2,7 +2,7 @@
 this is  a simple program divided into classes that is used to show a simple zoo UML diagram and show the inhertance and the diffrent kinds of classes and the polymorphism and also including the overriding for abstract and virtual classes so as you will see below the animal is the base class and also the abstract class for 3 classes that are also abstract classes (mammals,birds, reptiles) then this classes have classes under them as children for example mammals is the parent for the lion class (the lion class is a concret class) .
 ## UML Diagram for the zoo:
 
-![uml](https://github.com/abdarahman-shaheen/Lab06-Zoo/blob/master/Zoo-UML.jpg)
+![uml](https://github.com/abdarahman-shaheen/Lab06-Zoo/blob/master/Zoo-UML-interface.jpg)
 
 ## The 4 concepts of OOP:
 1. Encapsulation: Bundling data and related operations together within a class, providing a neat package that protects the data from outside interference and allows controlled access through defined interfaces.
