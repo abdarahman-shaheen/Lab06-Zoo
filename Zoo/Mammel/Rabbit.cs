@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    public class Rabbit : Mammals
+    public class Rabbit : Mammals, IAnimalBehavior
     {
         public override bool Horns { get; set; }
 
@@ -20,6 +20,11 @@ namespace Zoo
 
         }
 
+        public bool EatMeat()
+        {
+            Console.WriteLine($"The {Name} is not eat meat");
+            return false;
 
+        }
     }
 }

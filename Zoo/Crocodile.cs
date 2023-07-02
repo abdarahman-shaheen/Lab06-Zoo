@@ -6,19 +6,33 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    public class Crocodile : Reptile
+    public class Crocodile : Reptile ,IAnimal, IAnimalBehavior
     {
         public override bool Scales { get; set; }
         public override bool Fangs { get; set; }
+        public int Age { get ; set ; }
 
-        public Crocodile(string name, int leg, bool scales, bool fangs) : base(name, leg)
+        public Crocodile(string name, int leg, bool scales, bool fangs,int age) : base(name, leg)
         {
+            Age = age;
             Scales = scales;
             Fangs = fangs;
         }
         public override void Swim()
         {
-            Console.WriteLine("The Crocodile is swimming");
+            Console.WriteLine($"The {Name} is swimming");
+        }
+        public void Run()
+        {
+            Console.WriteLine($"The {Name} is running");
+        }
+
+        public bool EatMeat()
+        {
+            
+                Console.WriteLine($"The {Name} is eat meat");
+            return true;
+           
         }
     }
 }
